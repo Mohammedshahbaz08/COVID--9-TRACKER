@@ -10,10 +10,10 @@ body{
 }
 
 
-.context {
+.context{
     width: 100%;
     position: absolute;
-    top:50vh;
+    top:18vh;
     
 }
 
@@ -131,6 +131,21 @@ body{
 }
 
 
+button{
+    position: fixed;
+    left: 45%;
+    background-color: #4e54c8 ;
+    border-radius:30%;
+    border:solid white;
+    font-size: medium;
+    color: #fff;
+    padding: 10px;
+    top: 45vh;
+    text-decoration:solid;
+    
+}
+
+
 
 @keyframes animate {
 
@@ -146,4 +161,4 @@ body{
         border-radius: 50%;
     }
 
-}
+} 
