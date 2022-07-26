@@ -131,9 +131,9 @@ body{
 }
 
 
-.button{
-    position:inherit;
-    left: 47%;
+a{
+    position: fixed;
+    left: 45%;
     background-color: #4e54c8 ;
     border-radius:50%;
     border:solid white;
