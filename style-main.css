@@ -1,0 +1,22 @@
+ .country,.data{
+    position: relative;
+     border-radius: 10px;
+     border: solid ;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+     padding:10px;
+     background-color: #4e54c8;
+     color: white;
+     left: 40%;
+     z-index: 1;
+     
+ }
+
+ .country:hover,.data:hover{
+ color: aqua;
+ }
+
+ h2{
+    top: 40px;
+    position: relative;
+    left:40%;
+ }
