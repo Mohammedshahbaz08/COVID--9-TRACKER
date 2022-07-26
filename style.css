@@ -131,20 +131,19 @@ body{
 }
 
 
-button{
-    position: fixed;
-    left: 45%;
+.button{
+    position:inherit;
+    left: 47%;
     background-color: #4e54c8 ;
-    border-radius:30%;
+    border-radius:50%;
     border:solid white;
     font-size: medium;
     color: #fff;
     padding: 10px;
     top: 45vh;
-    text-decoration:solid;
-    
-}
-
+    text-decoration: none; 
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);  
+}  
 
 
 @keyframes animate {
