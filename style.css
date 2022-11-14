@@ -14,7 +14,7 @@
 }
 
 .h1-class{
-  
+  font-size: 10px;
   color: rgb(0, 68, 255);
   font-style: italic;
   text-decoration: underline rgb(233, 43, 43);
@@ -62,8 +62,21 @@
 
 }
 
+#marque{
+  padding-top: 15px;
+ 
+}
+
+marquee:hover{
+  color: red;
+}
+
+.dot{
+  color: blue;
+}
+
 /* index2.html styles */
-body{
+.body{
   background: #88c3a2;
   align-items: center;
   text-align: center;
@@ -74,6 +87,7 @@ body{
       margin: auto;
       padding: 20px 50px 20px 50px;
       margin-top: 25px;
+      margin-bottom: 25px;
       background: #88c3a2;
       box-shadow: 20px 20px 60px #74a68a, -20px -20px 60px #9ce0ba;
 }
@@ -102,6 +116,9 @@ body{
   color: white;
   margin-left: 20px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 1), 0 6px 20px 0 rgb(29, 29, 29, 0.5);
+}
+.btn:hover{
+  color: red;
 }
 
 .inputElement{
@@ -166,4 +183,45 @@ body{
   margin-top: 40px;
   border-radius: 10px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0,0,0,0.10);
+}
+
+.activeCases{
+  padding-top: 40px;
+ }
+.newCases{
+  padding-top: 40px;
+ }
+.recoveredCases{
+  padding-top: 40px;
+ }
+.totalCases{
+  padding-top: 40px;
+ }
+.totalDeaths{
+  padding-top: 40px;
+ }
+.totalTests{
+  padding-top: 40px;
+ }
+
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: red;
+}
+.back-btn{
+  float: left;
+  margin-top: 15px;
+  padding: 15px 30px 15px 30px;
+  border: none;
+  border-radius: 32px;
+  background: #14213d;
+  cursor: pointer;
+  font-size: 20px;
+  transition-duration: 0.5s;
+  color: white;
+  margin-left: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 1), 0 6px 20px 0 rgb(29, 29, 29, 0.5);
 }
