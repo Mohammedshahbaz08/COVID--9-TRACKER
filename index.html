@@ -1,31 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>covid!9 tracker</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="style-main.css" />
-  </head>
-<body>
-  <div class="container">
-
-  <div class="h1-class"><h1 >COVID !9 TRACKER</h1></div>
-  <div class="video"><video src="video.mp4" class="video" controls muted autoplay loop></video></div>
-  <div class="button">
-  <button ><a href="index2.html">
-    ClicK Here To TracK </a></button>
-  </div>
-  <hr>
- 
-</div>
-
-<div class="para">
-  <p class="dot">............................................................................................................................................................................................................................................................................................................................................................................................</p>
-  <p id="marque"><marquee behavior="" direction="left" style="color:blue ; "> Avoid crowds and close contact. Wear a properly fitted mask when physical distancing is not possible and in poorly ventilated settings. Clean your hands frequently with alcohol-based hand rub or soap and water. Cover your mouth and nose with a bent elbow or tissue when you cough or sneeze.</marquee></p>
-  <p class="dot">............................................................................................................................................................................................................................................................................................................................................................................................</p>
-</div>
-    <!-- <script src="script.js"></script> -->
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID !9 TRACKER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <h1>COVID !9 TRACKER</h1>
+    <div class="container2">
+       
+            <input type="text" class="inputElement" />
+            <button class="btn">Get Data</button><br>
+            <div id="container">
+                <div class="activeCasesDiv">Active Cases
+                    <p class="activeCases"></p>
+                </div>
+                <div class="newCasesDiv">New Cases
+                    <p class="newCases"></p>
+                </div>
+                <div class="recoveredCasesDiv">Recovered 
+                    <p class="recoveredCases"></p>
+                </div>
+            </div>
+            <br><br>
+            <div id="container">
+                <div class="totalCasesDiv">Total Cases
+                    <p class="totalCases"></p>
+                </div>
+                <div class="totalDeathsDiv">Total Deaths
+                    <p class="totalDeaths"></p>
+                </div>
+                <div class="totalTestsDiv">Total Tests
+                    <p class="totalTests"></p>
+                </div>
+                    </div>
+                        </div>
+</body>
+<script src="script.js"></script>
 </html>

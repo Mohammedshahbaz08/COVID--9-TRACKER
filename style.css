@@ -4,78 +4,6 @@
     /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
   
 }
-
-.container{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  align-content:space-around;
-
-}
-
-.h1-class{
-  font-size: 10px;
-  color: rgb(0, 68, 255);
-  font-style: italic;
-  text-decoration: underline rgb(233, 43, 43);
-  margin: 10px;
-}
-
-.h1-class:hover{
-  color: red;
-}
-.video{
-    margin: 10px;
-    width: auto;
-    height: 450px;
-    border-radius: 6px;
-  }
-
-  .button{
-    margin: 10px;
-  }
-.button button {
-  border: 3px solid  rgb(0, 68, 255);;
-  border-radius:6px;
-  padding: 8px;
-  }
- 
-.button a{
-  text-decoration: none;
-  color: rgb(0, 68, 255);
-  font-weight: bolder;
-  text-transform:uppercase ;
-  font-style: italic;
-  
-}
-
-.button button a:hover{
-  color: rgb(247, 16, 16);
-  
-}
-
-#input-area{
-    display: flex;
-    margin-top: 20px; 
-    flex-direction: row;
-
-
-}
-
-#marque{
-  padding-top: 15px;
- 
-}
-
-marquee:hover{
-  color: red;
-}
-
-.dot{
-  color: blue;
-}
-
-/* index2.html styles */
 .body{
   background: #88c3a2;
   align-items: center;
@@ -88,8 +16,9 @@ marquee:hover{
       padding: 20px 50px 20px 50px;
       margin-top: 25px;
       margin-bottom: 25px;
-      background: #88c3a2;
-      box-shadow: 20px 20px 60px #74a68a, -20px -20px 60px #9ce0ba;
+      background: #43eca0;
+      box-shadow: 20px 20px 60px #ffffff, -20px -20px 60px #fefffe;
+      border-radius: 25px;
 }
 
 #container{
@@ -131,8 +60,8 @@ marquee:hover{
 }
 
 .activeCasesDiv{
-  background-color: #2d6a4f;
-  color: white;
+  background-color: #88c3a2;
+  color: #0c0c0c;
   font-size: 1.5rem;
   margin: 10px;
   margin-top: 40px;
@@ -140,8 +69,8 @@ marquee:hover{
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0,0,0,0.10);
 }
 .newCasesDiv{
-  background-color: #2d6a4f;
-  color: white;
+  background-color: #88c3a2;
+  color: black;
   font-size: 1.5rem;
   margin: 10px;
   margin-top: 40px;
@@ -149,8 +78,8 @@ marquee:hover{
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0,0,0,0.10);
 }
 .recoveredCasesDiv{
-  background-color: #2d6a4f;
-  color: white;
+  background-color: #88c3a2;
+  color: black;
   font-size: 1.5rem;
   margin: 10px;
   margin-top: 40px;
@@ -158,8 +87,8 @@ marquee:hover{
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0,0,0,0.10);
 }
 .totalCasesDiv{
-  background-color: #2d6a4f;
-  color: white;
+  background-color: #88c3a2;
+  color: black;
   font-size: 1.5rem;
   margin: 10px;
   margin-top: 40px;
@@ -167,8 +96,8 @@ marquee:hover{
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0,0,0,0.10);
 }
 .totalDeathsDiv{
-  background-color: #2d6a4f;
-  color: white;
+  background-color: #88c3a2;
+  color: black;
   font-size: 1.5rem;
   margin: 10px;
   margin-top: 40px;
@@ -176,8 +105,8 @@ marquee:hover{
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0,0,0,0.10);
 }
 .totalTestsDiv{
-  background-color: #2d6a4f;
-  color: white;
+  background-color: #88c3a2;
+  color: black;
   font-size: 1.5rem;
   margin: 10px;
   margin-top: 40px;
@@ -206,22 +135,8 @@ marquee:hover{
 
 a{
   text-decoration: none;
-  color: white;
+  color: black;
 }
 a:hover{
   color: red;
-}
-.back-btn{
-  float: left;
-  margin-top: 15px;
-  padding: 15px 30px 15px 30px;
-  border: none;
-  border-radius: 32px;
-  background: #14213d;
-  cursor: pointer;
-  font-size: 20px;
-  transition-duration: 0.5s;
-  color: white;
-  margin-left: 20px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 1), 0 6px 20px 0 rgb(29, 29, 29, 0.5);
 }
